@@ -1,0 +1,71 @@
+div.mainMenu {
+    width: 60%;
+    margin: 30px auto;
+}
+
+div.mainMenu p.listHeader {
+    background-color: navy;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+div.mainMenu div a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.mainMenu div a p {
+    font-size: 30px;
+    background-color: blue;
+    padding: 15px;
+    font-weight: bold;
+    border: solid 4px navy;
+    border-top: none;
+    transition: .4s;
+}
+
+div.mainMenu div:last-child a p {
+    border-radius: 0 0 15px 15px;
+}
+
+div.mainMenu div a p:hover {
+    background-color: dodgerblue;
+}
+
+@media (max-width: 1000px) {
+
+    div.mainMenu {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    div.mainMenu {
+        width: 92%;
+    }
+
+}
+
+@media (max-width: 475px) {
+
+    div.mainMenu {
+        width: 96%;
+        margin: 25px auto;
+    }
+
+    div.mainMenu p.listHeader {
+        font-size: 30px;
+    }
+
+    div.mainMenu div a p {
+        font-size: 25px;
+    }
+
+}
